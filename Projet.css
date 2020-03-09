@@ -1,0 +1,153 @@
+/*
+Une mise en forme des bodys de chaque page 
+-body: pour la page d'accueil.
+- body1: pour la page blog.
+
+*/
+.body{
+    background-image: url(1.jpg);
+}
+.body1{
+    background-color: yellow;
+}
+/*
+Le menu de mes pages 
+*/
+nav ul{
+    padding: 0px ;
+    margin: 0px ;
+    list-style-type: none;
+    background-color: gray;
+    text-align: center;
+}
+nav li{
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+    width: 200px;
+    height: 50px;
+    border-right: 1px solid #CCCCCC;
+    text-align: center;
+    line-height: 50px;
+}
+nav li a{
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+}
+nav li :hover{
+        background-color: #388888;
+}
+/*
+La mise en forme du head de la page d'accueil.
+*/
+.h{
+    color: #309ee7;
+    font-size: 500%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    text-shadow: 3px -3px 4px #309ee7;
+}
+/*
+La mise en forme du head de la page blog.
+*/
+.h1-a{
+    background-color: #002280;
+    font-family: Algerian;
+    font-size: 100%;
+    text-align: center;
+    font-weight: bold;
+    line-height: 100px;
+    color: red;
+}
+/*
+La mise en forme de mon indentation sur la page blog.
+*/
+.dl, .dt, .dd{
+    background-color: #ff9100;
+}
+#id-dt, .dt, .dl{
+    text-align: center;
+    line-height: 25px;
+    color: indianred;
+}
+#id-dd, .dd{
+    text-align: justify;
+    line-height: 25px;
+    color: indianred;
+    text-indent: 50px;
+}
+/*
+La mise forme de mes paragraphes sur la page blog.
+*/
+.div-para, .div-para0, .div-para1, .div-para2, .div-para3{
+                font-family: 'Times New Roman', Times, serif;
+                text-align: justify;
+                line-height: 22px;
+                text-indent: 50px;
+                color: indianred;
+}
+
+.div-para{
+
+   
+}
+.div-para0{
+
+}
+.div-para1{
+
+}
+.div-para2{
+
+}
+.div-para3{
+
+    }
+/*
+La mise forme de mes titres sur la page blog.
+*/
+.m, .m0, .m1, .m2, .m3{
+                font-family: Algerian;
+                text-align: center;
+}
+.m{
+    color: green;
+    
+}
+.m0{
+    color: gray;
+    
+}
+.m1{
+    color: red;
+    
+}
+.m2{
+    color: hotpink;
+    
+}
+.m3{
+    color: indigo;
+
+    }
+/*
+La mise forme de la ligne contact sur la page blog.
+*/
+.div-a1{
+    display: block;
+    text-align: center;
+    background-color: #309ee7;
+}
+.div-a1 a{
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    width: 150px;
+    height: 40px;
+    border-right: 1px;
+    color: #73ff00;
+    text-decoration: none;
+    text-align: center;
+    line-height: 25px;
+}
